@@ -314,7 +314,7 @@ async function loadProofsFeed(totalCount) {
   const limit = Math.min(totalCount, CONFIG.PAGE_SIZE);
   const offset = totalCount - limit;
   const page = await readContract.getProofs(offset, limit);
-  const rows = page.result || page[0];
+  const rows = Array.isArray(page) ? page : (page.result || page[0]);
   const proofs = [];
   for (let i = 0; i < rows.length; i++) {
     proofs.push({ id: offset + i, proof: rows[i] });
