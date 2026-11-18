@@ -4,8 +4,8 @@
 /* ============================== CONFIG ============================== */
 const CONFIG = {
   // !!! CONTRACT ADDRESS — PLACEHOLDER !!!
-  // Set this to the deployed AgentProof contract address after deployment.
-  // While it is the zero address, the dApp runs in "not deployed yet" mode:
+  // The deployed AgentProof contract address on BNB Chain (Sourcify-verified).
+  // If this were ever the zero address, the dApp would run in preview mode:
   // the board renders its empty state and no contract calls are made.
   CONTRACT_ADDRESS: "0xE14E3247ccb686e5C7d924308B4f576B8C90D3b1",
   // Binance Agent ID (name.ai) ERC-721 contract on BNB Chain.
