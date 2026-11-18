@@ -1,0 +1,1 @@
+{"description":"AgentProof — on-chain reputation board for AI agents (Binance Agent ID Hackathon)","devDependencies":{"@nomicfoundation/hardhat-chai-matchers":"^2.0.0","@nomicfoundation/hardhat-ethers":"^3.0.0","chai":"^4.4.0","ethers":"^6.13.0","hardhat":"^2.22.7"},"name":"agentproof","private":true,"scripts":{"compile":"hardhat compile","test":"hardhat test"},"version":"1.0.0"}
